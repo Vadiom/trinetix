@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'decima_nova_pro';
+    src: url('decimanovapro-bold-webfont.eot');
+    src: url('decimanovapro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('decimanovapro-bold-webfont.woff2') format('woff2'),
+         url('decimanovapro-bold-webfont.woff') format('woff'),
+         url('decimanovapro-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'decima_nova_pro';
+    src: url('decimanovaprolt-webfont.eot');
+    src: url('decimanovaprolt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('decimanovaprolt-webfont.woff2') format('woff2'),
+         url('decimanovaprolt-webfont.woff') format('woff'),
+         url('decimanovaprolt-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import 'https://fonts.googleapis.com/css?family=PT+Serif';
+
+body.index {
+    font-family: 'decima_nova_pro', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header-wrapper {
+	height: 353px;
+    border-top: 4px solid #00abff;
+    background-color: #00172b;
+	width: 100%;
+}
+.header-top {
+	height: 66px;
+	border-bottom: 1px solid #00203c ;
+}
+
+.index h2 {
+	  font-family: 'PT Serif', serif;
+      font-size: 48px;
+      color: #ffffff;
+      margin-top: 50px;
+      margin-bottom: 60px;
+      line-height: 58px;
+}
+.index h4 {
+      font-size: 19px;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }
+
+#myNavbar .nav li a {
+    padding: 10px 21px;
+    color: #fff;
+    line-height: 48px;
+}
+
+#myNavbar {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#myNavbar .nav>li>a:focus, #myNavbar .nav>li>a:hover {
+    background-color: initial;
+    outline: none;
+}
+#myNavbar .btn {
+      background: transparent;
+      border-radius: 40px;
+      border: 1px solid #ffffff;
+      width: 118px;
+      height: 32px;
+      font-weight: bold;
+      color: #ffffff;
+      padding: 0;
+      margin-top: 18px;
+      line-height: 30px !important;
+      padding: 0 !important;
+}
+
+#myNavbar li:last-child {
+      left: 27px;
+}
+#myNavbar .navbar-nav li a:hover, #myNavbar .navbar-nav li.active a {
+      color: #00abff;
+      background-color: transparent;
+  }
+.navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+}
+
+.container.pd60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.introhead {
+    height: 223px;
+    border-top: 1px solid rgba(0, 53, 98, 0.3);
+    border-bottom: 1px solid rgba(0, 53, 98, 0.3);
+}
+
+.icon-bar {
+    background-color: #ffffff;
+}
+
+.index .intro h1 {
+    color: #105788;
+    font-family: 'PT Serif', serif;
+    font-size: 54px;
+    margin: 0 0 35px 25px;
+    line-height: 44px;
+}
+.index .intro h4 {
+    color: #000000;
+    font-family: 'decima_nova_pro', sans-serif;
+    font-size: 28px;
+    padding: 0 0 0 25px;
+    line-height: 35px;
+    margin: 0;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    outline: none;
+    background-color: transparent !important;
+}
+
+#sub-menu {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+#sub-menu .navbar-nav li a:hover, #sub-menu .navbar-nav li.active a {
+    color: #00abff;
+   }
+
+#sub-menu .navbar-nav li.active  {
+    border-bottom: 4px solid #00abff;
+}
+
+#sub-menu .nav li a {
+    color: #fff;
+    padding: 21px 19px 14px;
+}
+
+.line-arrow {
+    background: transparent url(../img/hr.png) center;
+    clear: both;
+    height: 21px;
+    margin: 0px !important;
+    border: 0 !important;
+}
+
+.services {
+    height: 685px;
+}
+
+.services:last-child {
+    padding-bottom: 60px;
+}
+
+.services .thumb{
+    margin-bottom: 0;
+    border: 0;
+}
+.services h3 {
+    font-size: 36px;
+    color: #00abff;
+    font-family: 'PT Serif', serif;
+    margin: 0 15px 0 0px;
+    line-height: 44px;
+}
+
+.services p {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 10px 0;
+}
+
+.services .btn  {
+    font-size: 16px;
+    color: #00abff;
+    border: 1px solid #00abff;
+    padding: 4px 52px;
+    border-radius: 20px;
+    margin: 5px 0 0 10px;
+}
+
+.services .caption {
+    min-width: 570px;
+    padding: 0 34px 0px 16px;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    background-color:#00abff;
+    color: #ffffff !important;
+}
+
+.more_about_us {
+    border-top: 1px solid #e1e1e1;
+    padding: 60px 0;
+}
+
+.more_about_us .lead {
+    font-size: 48px;
+    line-height: 52px;
+    color: #105788;
+    font-family: 'PT Serif', serif;
+}
+
+.more_about_us .btn {
+    font-size: 24px;
+    padding: 8px 88px;
+    background-color: #00abff;
+    color: #ffffff;
+    border-radius: 30px;
+}
+footer {
+    border-top: 4px solid #00abff;
+    background-color: #00172b;
+}
+
+.contacts {
+    padding: 36px 0 42px;
+}
+
+
+footer p {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0;
+    line-height: 30px;
+}
+
+footer a {
+    font-size: 18px;
+    color: #00abff;
+    line-height: 30px;
+}
+
+.footer__top {
+    border-bottom: 1px solid #003767;
+}
+
+.footer__bottom {
+    height: 93px;
+}
